@@ -3,7 +3,7 @@
 This is a price comparison project, built to compare prices across multiple platforms.
 
 Users will be able to register accounts, but some limited features will also be available to unregistered users.
-A registered user will be able to:
+A unregistered user will be able to:
 - Visit the platform to view basic information about it;
 - View and Interact with the documentation;
 - Register to view more details;
