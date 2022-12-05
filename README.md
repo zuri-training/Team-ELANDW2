@@ -20,3 +20,23 @@ It is built using the following technologies:
 - CSS
 - Javascript
 - Node.js
+
+### Project Structure
+
+```bash
+
+|--- server
+    |--- controllers
+    |--- models
+    |--- routes
+
+|--- Frontend
+    |--- assets
+    |--- js
+    |--- html
+    |--- js
+
+|--- app.js
+|--- README.md
+
+```
