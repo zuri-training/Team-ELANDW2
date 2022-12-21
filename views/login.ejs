@@ -1,0 +1,18 @@
+<h1>Login</h1>
+<%- include ("./partials/message") %>
+<form action="/users/login" method="POST">
+<label for="email">Email</label>
+<input type="email" name="email" id="email" placeholder="Enter Email"> <br>
+
+<label for="password">Password</label>
+<input type="password" name="password" id="password" placeholder="Enter Password">
+<br>
+
+<button type="submit">Login</button>
+</form>
+
+<p>No Account? <a href="/users/register">Register</a> </p>
+
+<p>
+  <a href="/users/forgotPassword">Forgot Password?</a>
+</p>

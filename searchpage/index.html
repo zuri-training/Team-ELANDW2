@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>PRICE CHECKA SEARCH PAGE</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container bootdey">
+        <div class="col-md-3">
+            <section class="panel">
+                <div class="panel-body">
+                    <input type="text" placeholder="Keyword Search" class="form-control" />
+                </div>
+            </section>
+            <section class="panel">
+                <header class="panel-heading">
+                    Category
+                </header>
+                <div class="panel-body">
+                    <ul class="nav prod-cat">
+                        <li>
+                            <a href="#" class="active"><i class="fa fa-angle-right"></i> BRAND</a>
+                            <ul class="nav">
+                                <li><a href="#">- Chanel</a></li>
+                                <li><a href="#">- Dior</a></li>
+                                <li><a href="#">- Christian Loubotin</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-angle-right"></i> PRICE</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-angle-right"></i> AVAILABILITY</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-angle-right"></i> CATEGORY</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-angle-right"></i> COLOUR</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-angle-right"></i> RATINGS</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="panel">
+                <header class="panel-heading">
+                    Price Range
+                </header>
+                <div class="panel-body sliders">
+                    <div id="slider-range" class="slider"></div>
+                    <div class="slider-info">
+                        <span id="slider-range-amount"></span>
+                    </div>
+                </div>
+            </section>
+            <section class="panel">
+                <header class="panel-heading">
+                    Filter
+                </header>
+                <div class="panel-body">
+                    <form role="form product-form">
+                        <div class="form-group">
+                            <label>BRAND</label>
+                            <select class="form-control hasCustomSelect" style="-webkit-box-flex: 2" : menulist-button;
+                                width: 231px; position: absolute; opacity: 0; height: 34px; font-size: 12px;">
+                                <option>Chanel</option>
+                                <option>Dior</option>
+                                <option>Christian Loubotin</option>
+                                <option>Louis Vuitton</option>
+                            </select>
+                            <span class="customSelect form-control" style="display: inline-block;"><span
+                                    class="customSelectInner" style="width: 209px; display: inline-block;">
+                                    Chanel</span></span>
+                        </div>
+                        <div class="form-group">
+                            <label>COLOUR</label>
+                            <select class="form-control hasCustomSelect" style="-webkit-box-flex: 2" : menulist-button;
+                                width: 231px; position: absolute; opacity: 0; height: 34px; font-size: 12px;">
+                                <option>White</option>
+                                <option>Black</option>
+                                <option>Pink</option>
+                                <option>Blue</option>
+                            </select>
+                            <span class="customSelect form-control" style="display: inline-block;"><span
+                                    class="customSelectInner"
+                                    style="width: 209px; display: inline-block;">White</span></span>
+                        </div>
+                        <div class="form-group">
+                            <label>TYPE</label>
+                            <select class="form-control hasCustomSelect" style="-webkit-box-flex: 2" : menulist-button;
+                                width: 231px; position: absolute; opacity: 0; height: 34px; font-size: 12px;">
+                                <option>Small</option>
+                                <option>Medium</option>
+                                <option>Large</option>
+                                <option>Extra Large</option>
+                            </select>
+                            <span class="customSelect form-control" style="display: inline-block;"><span
+                                    class="customSelectInner"
+                                    style="width: 209px; display: inline-block;">Small</span></span>
+                        </div>
+                        <button class="btn btn-primary" type="submit">FILTER</button>
+                    </form>
+                </div>
+            </section>
+            <section class="panel">
+                <header class="panel-heading">
+                    BEST SELLER
+                </header>
+                <div class="panel-body">
+                    <div class="best-seller">
+                        <article class="media">
+                            <a class="pull-left thumb p-thumb">
+                                <img style="width: 30px;" src="shoeee.jpg" alt="" />
+                            </a>
+                            <div class="media-body">
+                                <a href="#" class="p-head"> Christian Loubotin Women's Heels</a>
+                                <p>Nationwide Delivery Available.</p>
+                            </div>
+                        </article>
+                        <article class="media">
+                            <a class="pull-left thumb p-thumb">
+                                <img style="width: 30px;" src="bagg.jpg" alt="" />
+                            </a>
+                            <div class="media-body">
+                                <a href="#" class="p-head">Chanel Women's Handbag</a>
+                                <p>Nationwide Delivery Available.</p>
+                            </div>
+                        </article>
+                        <article class="media">
+                            <a class="pull-left thumb p-thumb">
+                                <img style="width: 30px;" src="wristwatch.jpg" alt="" />
+                            </a>
+                            <div class="media-body">
+                                <a href="#" class="p-head">Dior Women's Wristwatch</a>
+                                <p>Nationwide Delivery Available.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="col-md-9">
+            <section class="panel">
+                <div class="panel-body">
+                    <div class="pull-right">
+                        <ul class="pagination pagination-sm pro-page-list">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">»</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <div class="row product-list">
+                <div class="col-md-4">
+                    <section class="panel">
+                        <div class="pro-img-box">
+                            <img style="width: 30px;" src="shoeee.jpg" alt="" />
+                            <a href="#" class="adtocart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+
+                        <div class="panel-body text-center">
+                            <h4>
+                                <a href="#" class="pro-title">
+                                    Christian Loubotin Women's Heels
+                                </a>
+                            </h4>
+                            <p class="price">N20,000</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-4">
+                    <section class="panel">
+                        <div class="pro-img-box">
+                            <img style="width: 30px;" src="bagg.jpg" alt="" />
+                            <a href="#" class="adtocart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+
+                        <div class="panel-body text-center">
+                            <h4>
+                                <a href="#" class="pro-title">
+                                    Christian Loubotin Women's Heels
+                                </a>
+                            </h4>
+                            <p class="price">N20,000</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-4">
+                    <section class="panel">
+                        <div class="pro-img-box">
+                            <img style="width: 30px;" src="bagg.jpg" alt="" />
+                            <a href="#" class="adtocart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+
+                        <div class="panel-body text-center">
+                            <h4>
+                                <a href="#" class="pro-title">
+                                    Christian Loubotin Women's Heels
+                                </a>
+                            </h4>
+                            <p class="price">N20,000</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-4">
+                    <section class="panel">
+                        <div class="pro-img-box">
+                            <img style="width: 30px;" src="bagg.jpg" alt="" />
+                            <a href="#" class="adtocart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+
+                        <div class="panel-body text-center">
+                            <h4>
+                                <a href="#" class="pro-title">
+                                    Christian Loubotin Women's Heels
+                                </a>
+                            </h4>
+                            <p class="price">N20,000</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-4">
+                    <section class="panel">
+                        <div class="pro-img-box">
+                            <img style="width: 30px;" src="bagg.jpg" alt="" />
+                            <a href="#" class="adtocart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+
+                        <div class="panel-body text-center">
+                            <h4>
+                                <a href="#" class="pro-title">
+                                    Christian Loubotin Women's Heels
+                                </a>
+                            </h4>
+                            <p class="price">N20,000</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-4">
+                    <section class="panel">
+                        <div class="pro-img-box">
+                            <img style="width: 30px;" src="bagg.jpg" alt="" />
+                            <a href="#" class="adtocart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+
+                        <div class="panel-body text-center">
+                            <h4>
+                                <a href="#" class="pro-title">
+                                    Christian Loubotin Women's Heels
+                                </a>
+                            </h4>
+                            <p class="price">N20,0000</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-4">
+                    <section class="panel">
+                        <div class="pro-img-box">
+                            <img style="width: 30px;" src="bagg.jpg" alt="" />
+                            <a href="#" class="adtocart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+
+                        <div class="panel-body text-center">
+                            <h4>
+                                <a href="#" class="pro-title">
+                                    Christian Loubotin Women's Heels
+                                </a>
+                            </h4>
+                            <p class="price">N20,000</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-4">
+                    <section class="panel">
+                        <div class="pro-img-box">
+                            <<img style="width: 30px;" src="bagg.jpg" alt="" />
+                            <a href="#" class="adtocart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+
+                        <div class="panel-body text-center">
+                            <h4>
+                                <a href="#" class="pro-title">
+                                    Christian Loubotin Women's Heels
+                                </a>
+                            </h4>
+                            <p class="price">N20,000</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-4">
+                    <section class="panel">
+                        <div class="pro-img-box">
+                            <img style="width: 30px;" src="bagg.jpg" alt="" />
+                            <a href="#" class="adtocart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+
+                        <div class="panel-body text-center">
+                            <h4>
+                                <a href="#" class="pro-title">
+                                    Christian Loubotin Women's Heels
+                                </a>
+                            </h4>
+                            <p class="price">N20,000</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-4">
+                    <section class="panel">
+                        <div class="pro-img-box">
+                            <img style="width: 30px;" src="bagg.jpg" alt="" />
+                            <a href="#" class="adtocart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+
+                        <div class="panel-body text-center">
+                            <h4>
+                                <a href="#" class="pro-title">
+                                    Christian Loubotin Women's Heels
+                                </a>
+                            </h4>
+                            <p class="price">N20,000</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-4">
+                    <section class="panel">
+                        <div class="pro-img-box">
+                            <img style="width: 30px;" src="bagg.jpg" alt="" />
+                            <a href="#" class="adtocart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+
+                        <div class="panel-body text-center">
+                            <h4>
+                                <a href="#" class="pro-title">
+                                    Christian Loubotin Women's Heels
+                                </a>
+                            </h4>
+                            <p class="price">N20,000</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-4">
+                    <section class="panel">
+                        <div class="pro-img-box">
+                            <img style="width: 30px;" src="bagg.jpg" alt="" />
+                            <a href="#" class="adtocart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+
+                        <div class="panel-body text-center">
+                            <h4>
+                                <a href="#" class="pro-title">
+                                    Christian Loubotin Women's Heels
+                                </a>
+                            </h4>
+                            <p class="price">N20,000</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-4">
+                    <section class="panel">
+                        <div class="pro-img-box">
+                            <img style="width: 30px;" src="bagg.jpg" alt="" />
+                            <a href="#" class="adtocart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+
+                        <div class="panel-body text-center">
+                            <h4>
+                                <a href="#" class="pro-title">
+                                    Christian Loubotin Women's Heels
+                                </a>
+                            </h4>
+                            <p class="price">N20,000</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-4">
+                    <section class="panel">
+                        <div class="pro-img-box">
+                            <img style="width: 30px;" src="bagg.jpg" alt="" />
+                            <a href="#" class="adtocart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+
+                        <div class="panel-body text-center">
+                            <h4>
+                                <a href="#" class="pro-title">
+                                    Christian Loubotin Women's Heels
+                                </a>
+                            </h4>
+                            <p class="price">N20,000</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-4">
+                    <section class="panel">
+                        <div class="pro-img-box">
+                            <img style="width: 30px;" src="bagg.jpg" alt="" />
+                            <a href="#" class="adtocart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+
+                        <div class="panel-body text-center">
+                            <h4>
+                                <a href="#" class="pro-title">
+                                    Christian Loubotin Women's Heels
+                                </a>
+                            </h4>
+                            <p class="price">N20,000</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
