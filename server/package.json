@@ -1,0 +1,40 @@
+{
+  "name": "team-elandw2",
+  "version": "1.0.0",
+  "description": "price-comparison-site",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuri-training/Team-ELANDW2.git"
+  },
+  "author": "Team ELANDW2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zuri-training/Team-ELANDW2/issues"
+  },
+  "homepage": "https://github.com/zuri-training/Team-ELANDW2#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.8.0",
+    "nodemailer": "^6.8.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "uuid": "^9.0.0",
+    "validator": "^13.7.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
